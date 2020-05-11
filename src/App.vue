@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="bg-red-400">
         Starter kit powaaa
     </div>
 </template>

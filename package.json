@@ -43,6 +43,7 @@
 		"node-sass": "^4.13.1",
 		"postcss-custom-properties": "^9.1.1",
 		"sass-loader": "^8.0.0",
+		"tailwindcss": "^1.4.6",
 		"tslint-config-airbnb": "^5.11.2",
 		"tslint-language-service": "^0.9.9",
 		"typedoc": "^0.15.5",
