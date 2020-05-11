@@ -1,22 +1,22 @@
 {
-	"name": "@superpitch/framework-thrust",
+	"name": "thrust",
 	"version": "0.1.0",
 	"description": "UI components for fast bootstraping of frontend apps",
 	"keywords": [
-		"vue",
-		"webpack",
-		"typescript",
-		"boilerplate"
+		"vue"
 	],
-	"author": "Superpitch",
+	"author": "Bastien GUIHARD",
 	"license": "MIT",
+	"main": "dist/thrust.umd.min.js",
+	"module": "dist/thrust.common.js",
 	"files": [
 		"dist/",
 		"src/"
 	],
 	"scripts": {
 		"serve": "vue-cli-service serve",
-		"build": "vue-cli-service build",
+		"build": "vue-cli-service build --target lib --name falcon src/lib.ts",
+		"build:app": "vue-cli-service build",
 		"test:unit": "vue-cli-service test:unit",
 		"lint": "vue-cli-service lint",
 		"docs": "npx typedoc --out docs --target es6 --theme minimal --mode file src"
@@ -28,7 +28,8 @@
 		"vue": "2.x",
 		"vue-class-component": "^7.2.3",
 		"vue-property-decorator": "^8.4.1",
-		"vue-router": "^3.1.6"
+		"vue-router": "^3.1.6",
+		"vue2-touch-events": "^2.2.1"
 	},
 	"devDependencies": {
 		"@types/jest": "^24.9.1",

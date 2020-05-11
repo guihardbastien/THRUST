@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-red-400">
-        Starter kit powaaa
+    <div>
+        <Test/>
     </div>
 </template>
 
