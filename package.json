@@ -15,14 +15,13 @@
 	],
 	"scripts": {
 		"serve": "vue-cli-service serve",
-		"build": "vue-cli-service build --target lib --name falcon src/lib.ts",
+		"build": "vue-cli-service build --target lib --name thrust src/lib.ts",
 		"build:app": "vue-cli-service build",
 		"test:unit": "vue-cli-service test:unit",
 		"lint": "vue-cli-service lint",
 		"docs": "npx typedoc --out docs --target es6 --theme minimal --mode file src"
 	},
 	"dependencies": {
-		"@superpitch/core-rocket-frontend": "^0.8.3",
 		"@types/node": "^11.15.10",
 		"rxjs": "^6.5.5",
 		"vue": "2.x",
