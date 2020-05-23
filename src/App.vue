@@ -1,6 +1,7 @@
 <template>
     <div>
         <Test/>
+	    <Button icon="fa-globe" >Test</Button>
     </div>
 </template>
 
