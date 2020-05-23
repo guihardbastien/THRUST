@@ -1,6 +1,6 @@
 {
 	"name": "thrust",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "UI components for fast bootstraping of frontend apps",
 	"keywords": [
 		"vue"
@@ -40,7 +40,7 @@
 		"compression-webpack-plugin": "^3.1.0",
 		"cssnano": "^4.1.10",
 		"gitlab-npm-audit-parser": "^1.0.3",
-		"node-sass": "^4.13.1",
+		"node-sass": "^4.14.1",
 		"postcss-custom-properties": "^9.1.1",
 		"sass-loader": "^8.0.0",
 		"tailwindcss": "^1.4.6",
