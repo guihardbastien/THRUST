@@ -8,17 +8,12 @@ import { mixins } from 'vue-class-component';
     components: {
     },
 })
-export default class Button extends mixins() {
+export default class LoginForm extends mixins() {
 
     /**
-     * Button icon
+     * Title
      */
-    @Prop({ type: String, default: 'none' }) readonly icon!: string;
-
-    /**
-     * Button color
-     */
-    @Prop({ type: String, default: 'gray' }) readonly color!: string;
+    @Prop({ type: String, default: 'THRUST' }) readonly title!: string;
 
     /**
      * Internal state
@@ -26,5 +21,12 @@ export default class Button extends mixins() {
     state: {[key: string]: any} = {
 
     };
+
+    /**
+     * Emit click
+     */
+    emitClick() {
+        this.$emit('click', true);
+    }
 
 }

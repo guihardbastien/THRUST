@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-red-200">
-        HelloWorld
+    <div class="bg-black">
+        <p class="text-white" >Powered by THRUST.</p>
     </div>
 </template>
 
