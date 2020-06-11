@@ -3,6 +3,7 @@
 Thrust is essentially a set of Vue.js factorized UI components. </br>
 It'll allow you to create frontend apps in a heartbeat.
 ## Overview
+![Thrust](https://media.giphy.com/media/SW3PNayoSGXao/giphy.gif)
 TBA
 ## How to build the library to be used in production-ready projects?
 TBA
