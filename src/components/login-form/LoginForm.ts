@@ -16,6 +16,11 @@ export default class LoginForm extends mixins() {
     @Prop({ type: String, default: 'THRUST' }) readonly title!: string;
 
     /**
+     * Logo
+     */
+    @Prop({ type: String, default: 'https://www.freepnglogos.com/uploads/pokemon-symbol-logo-png-31.png' }) readonly logo!: string;
+
+    /**
      * Internal state
      */
     state: {[key: string]: any} = {

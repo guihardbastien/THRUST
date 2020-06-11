@@ -18,7 +18,7 @@ export default class Button extends mixins() {
     /**
      * Button color
      */
-    @Prop({ type: String, default: 'gray' }) readonly color!: string;
+    @Prop({ type: String, default: 'default' }) readonly color!: string;
 
     /**
      * Internal state
