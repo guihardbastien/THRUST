@@ -1,0 +1,1 @@
+declare module 'vue-loaders/dist/loaders/ball-beat';
