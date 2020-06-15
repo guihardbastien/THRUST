@@ -1,6 +1,6 @@
 {
-	"name": "thrust",
-	"version": "0.2.0",
+	"name": "thrust-ui",
+	"version": "0.3.1",
 	"description": "UI components for fast bootstraping of frontend apps",
 	"keywords": [
 		"vue"
