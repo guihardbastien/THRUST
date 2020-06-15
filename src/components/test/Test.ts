@@ -13,7 +13,7 @@ export default class Test extends mixins() {
     /**
      * Internal state
      */
-    state: {[key: string]: any} = {
+    state: { [key: string]: any } = {
 
     };
 

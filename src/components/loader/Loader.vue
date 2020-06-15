@@ -4,7 +4,7 @@
   <div v-else-if="currentState === 'success'" class="loader-ok flex justify-center items-center">
     <i :class="['fa', 'fa-check']"></i>
   </div>
-    <div v-else class="loader-error flex justify-center items-center">
+  <div v-else class="loader-error flex justify-center items-center">
     <i :class="['fa', 'fa-times']"></i>
   </div>
 </template>

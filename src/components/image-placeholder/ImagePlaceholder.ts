@@ -28,7 +28,7 @@ export default class ImagePlaceholder extends mixins() {
     /**
      * Internal state
      */
-    state: {[key: string]: any} = {
+    state: { [key: string]: any } = {
 
     };
 

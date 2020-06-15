@@ -1,5 +1,5 @@
 <template>
-  <button 
+  <button
     :class="[
       `bg-${color}-500`, 
       `hover:bg-${color}-700`, 
@@ -11,7 +11,7 @@
       'items-center',
       'shadow'
       ]"
-    >
+  >
     <i v-if="icon !== 'none'" :class="['fa', icon, 'mr-2']"></i>
     <slot></slot>
   </button>

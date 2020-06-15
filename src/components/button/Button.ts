@@ -2,7 +2,7 @@ import { Component, Prop } from 'vue-property-decorator';
 import { mixins } from 'vue-class-component';
 
 /**
- * test components
+ * button component
  */
 @Component({
     components: {
@@ -23,7 +23,7 @@ export default class Button extends mixins() {
     /**
      * Internal state
      */
-    state: {[key: string]: any} = {
+    state: { [key: string]: any } = {
 
     };
 

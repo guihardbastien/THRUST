@@ -21,19 +21,4 @@ export default class Loader extends mixins() {
 
     };
 
-    /**
-     * Get color status depending on state
-     */
-    get type(): string {
-        switch (this.currentState) {
-            default:
-            case 'loading':
-                return 'primary';
-            case 'success':
-                return 'success';
-            case 'error':
-                return 'danger';
-        }
-    }
-
 }
