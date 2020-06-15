@@ -12,7 +12,7 @@ export default class Loader extends mixins() {
     /**
      * State
      */
-    @Prop({ type: String, default: 'loading' }) readonly currentState!: string;
+    @Prop({ type: String, default: 'error' }) readonly currentState!: string;
 
     /**
      * Internal state
