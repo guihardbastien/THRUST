@@ -1,5 +1,6 @@
 <template>
   <button
+  @click="emitClick"
     :class="[
       `bg-${color}-500`, 
       `hover:bg-${color}-700`, 

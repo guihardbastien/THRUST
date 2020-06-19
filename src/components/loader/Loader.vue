@@ -12,17 +12,16 @@
 <script lang="ts" src="./Loader.ts">
 </script>
 
-<style lang="css" scoped>
+<style lang="css">
 @keyframes spinner {
   to {
     transform: rotate(360deg);
   }
 }
 
-.spinner:before {
-  content: "";
+.spinner {
   box-sizing: border-box;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   width: 30px;
@@ -37,7 +36,7 @@
 
 .loader-ok {
   box-sizing: border-box;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   width: 30px;
@@ -51,7 +50,7 @@
 
 .loader-error {
   box-sizing: border-box;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   width: 30px;

@@ -1,4 +1,4 @@
-import { Component, Prop } from 'vue-property-decorator';
+import { Component, Prop, Model, Watch } from 'vue-property-decorator';
 import { mixins } from 'vue-class-component';
 
 /**
@@ -9,6 +9,11 @@ import { mixins } from 'vue-class-component';
     },
 })
 export default class Input extends mixins() {
+
+    /**
+     * Value of the input
+     */
+    @Model('update', { type: [String, Number] }) readonly value!: string;
 
     /**
      * Type of the input
@@ -58,6 +63,7 @@ export default class Input extends mixins() {
     /**
      * Propagate changes
      */
+    @Watch('value')
     change(value: string) {
         this.$emit('change', value);
     }
