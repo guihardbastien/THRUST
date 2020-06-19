@@ -27,8 +27,10 @@ export default class Button extends mixins() {
 
     };
 
+    /**
+     * Emit click
+     */
     emitClick() {
         this.$emit('click', '');
     }
-
 }
