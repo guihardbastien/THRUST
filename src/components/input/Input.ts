@@ -63,9 +63,10 @@ export default class Input extends mixins() {
     /**
      * Propagate changes
      */
-    @Watch('value')
-    change(value: string) {
+    emitChanges(event: any) {
+        const { value } = event.target;
         this.$emit('change', value);
+        this.$emit('update', value);
     }
 
 }

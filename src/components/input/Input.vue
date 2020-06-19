@@ -6,6 +6,7 @@
       :type="type"
       :placeholder="placeholder"
       :value="value"
+      @input="emitChanges"
     />
   </div>
 </template>

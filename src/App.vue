@@ -8,7 +8,7 @@
           <p class="text-gray-400 text-sm">Kcal</p>
         </div>
       </Card>
-      <Input label="Label" placeholder="placeholder" type="text" class="w-1/2" />
+      <Input @change="change" :value="state.v" label="Label" placeholder="placeholder" type="text" class="w-1/2" />
       <div class="w-20 h-20 m-2">
         <ImagePlaceholder />
       </div>

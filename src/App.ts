@@ -27,5 +27,16 @@ export default class App extends Vue {
      * Internal state
      */
     state: {[key: string]: any} = {
+        v:'truc',
     };
+
+    /**
+     * handle change
+     * @param val
+     */
+    change(val: string) {
+        this.state.v = val;
+        console.log(val);
+
+    }
 }
